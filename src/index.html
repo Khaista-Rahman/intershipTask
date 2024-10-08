@@ -248,142 +248,146 @@
     </div>
 
     <!-- container 6 -->
-    <div id="cont6" class="w-full bg-blue-400 rounded-t-full mt-20">
-      <!-- sliding area -->
-      <div class="w-full flex justify-evenly items-center">
-        <i
-          id="leftArrow"
-          class="fa-solid fa-angle-left hidden lg:block text-6xl text-gray-400 hover:text-gray-700 cursor-pointer"
-        ></i>
+    <div class="w-full overflow-hidden">
+      <div id="cont6" class="w-full bg-blue-400 rounded-t-full mt-20">
+        <!-- sliding area -->
+        <div class="w-full flex justify-evenly items-center">
+          <i
+            id="leftArrow"
+            class="fa-solid fa-angle-left hidden lg:block text-6xl text-gray-400 hover:text-gray-700 cursor-pointer"
+          ></i>
+
+          <div
+            id="mainContainer"
+            class="lg:h-[100vh] lg:w-[80vw] w-[70vw] h-[50vh] flex justify-center items-end gap-3 overflow-hidden relative"
+          >
+            <!-- Image container -->
+            <div id="imageSlider" class="flex transition-all duration-500">
+              <img src="images/slider-1.webp" class="w-full" alt="Image 1" />
+              <img src="images/slider-2.webp" class="w-full" alt="Image 2" />
+              <img src="images/slider-3.webp" class="w-full" alt="Image 3" />
+              <img src="images/slider-4.webp" class="w-full" alt="Image 3" />
+              <img src="images/slider-5.webp" class="w-full" alt="Image 3" />
+              <img src="images/slider-6.webp" class="w-full" alt="Image 3" />
+              <img src="images/slider-7.webp" class="w-full" alt="Image 3" />
+            </div>
+            <!-- Slider buttons -->
+            <div class="absolute bottom-2 flex gap-2 justify-center w-full">
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+              <button
+                class="slider-btn p-1 rounded-full border-2 border-black"
+              ></button>
+            </div>
+          </div>
+
+          <i
+            id="rightArrow"
+            class="fa-solid fa-angle-right hidden lg:block text-6xl text-gray-400 hover:text-gray-700 cursor-pointer"
+          ></i>
+        </div>
+
+        <!-- para area  -->
+        <div
+          id="cont6paraarea"
+          class="overflow-hidden w-full flex justify-center mt-20"
+        >
+          <div class="w-[70vw] p-5">
+            <div class="w-full flex justify-center">
+              <h1 class="lg:text-7xl text-lg font-semibold">
+                Recent Blog Post
+              </h1>
+            </div>
+            <p class="lg:text-xl font-extralight mt-5 text-white">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+          </div>
+        </div>
 
         <div
-          id="mainContainer"
-          class="lg:h-[100vh] lg:w-[80vw] w-[70vw] h-[50vh] flex justify-center items-end gap-3 overflow-hidden relative"
+          id="cont6cont"
+          class="overflow-hidden w-full flex-wrap flex justify-evenly p-10 mt-10"
         >
-          <!-- Image container -->
-          <div id="imageSlider" class="flex transition-all duration-500">
-            <img src="images/slider-1.webp" class="w-full" alt="Image 1" />
-            <img src="images/slider-2.webp" class="w-full" alt="Image 2" />
-            <img src="images/slider-3.webp" class="w-full" alt="Image 3" />
-            <img src="images/slider-4.webp" class="w-full" alt="Image 3" />
-            <img src="images/slider-5.webp" class="w-full" alt="Image 3" />
-            <img src="images/slider-6.webp" class="w-full" alt="Image 3" />
-            <img src="images/slider-7.webp" class="w-full" alt="Image 3" />
+          <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
+            <div class="w-full flex justify-center">
+              <img
+                src="images/slider-2.webp"
+                alt=""
+                srcset=""
+                class="w-full h-[200px]"
+              />
+            </div>
+            <div class="mt-10 p-5">
+              <h1 class="text-3xl font-bold">
+                45 Best Places To <br />
+                Unwind
+              </h1>
+              <p class="text-sm font-extralight mt-5">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
           </div>
-          <!-- Slider buttons -->
-          <div class="absolute bottom-2 flex gap-2 justify-center w-full">
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-            <button
-              class="slider-btn p-1 rounded-full border-2 border-black"
-            ></button>
-          </div>
-        </div>
 
-        <i
-          id="rightArrow"
-          class="fa-solid fa-angle-right hidden lg:block text-6xl text-gray-400 hover:text-gray-700 cursor-pointer"
-        ></i>
-      </div>
+          <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
+            <div class="w-full flex justify-center">
+              <img
+                src="images/slider-5.webp"
+                alt=""
+                srcset=""
+                class="w-full h-[200px]"
+              />
+            </div>
+            <div class="mt-10 p-5">
+              <h1 class="text-3xl font-bold">
+                45 Best Places To <br />
+                Unwind
+              </h1>
+              <p class="text-sm font-extralight mt-5">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
+          </div>
 
-      <!-- para area  -->
-      <div
-        id="cont6paraarea"
-        class="overflow-hidden w-full flex justify-center mt-20"
-      >
-        <div class="w-[70vw] p-5">
-          <div class="w-full flex justify-center">
-            <h1 class="lg:text-7xl text-lg font-semibold">Recent Blog Post</h1>
-          </div>
-          <p class="lg:text-xl font-extralight mt-5 text-white">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
-          </p>
-        </div>
-      </div>
-
-      <div
-        id="cont6cont"
-        class="overflow-hidden w-full flex-wrap flex justify-evenly p-10 mt-10"
-      >
-        <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
-          <div class="w-full flex justify-center">
-            <img
-              src="images/slider-2.webp"
-              alt=""
-              srcset=""
-              class="w-full h-[200px]"
-            />
-          </div>
-          <div class="mt-10 p-5">
-            <h1 class="text-3xl font-bold">
-              45 Best Places To <br />
-              Unwind
-            </h1>
-            <p class="text-sm font-extralight mt-5">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-          </div>
-        </div>
-
-        <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
-          <div class="w-full flex justify-center">
-            <img
-              src="images/slider-5.webp"
-              alt=""
-              srcset=""
-              class="w-full h-[200px]"
-            />
-          </div>
-          <div class="mt-10 p-5">
-            <h1 class="text-3xl font-bold">
-              45 Best Places To <br />
-              Unwind
-            </h1>
-            <p class="text-sm font-extralight mt-5">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-          </div>
-        </div>
-
-        <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
-          <div class="w-full flex justify-center">
-            <img
-              src="images/slider-7.webp"
-              alt=""
-              srcset=""
-              class="w-full h-[200px]"
-            />
-          </div>
-          <div class="mt-10 p-5">
-            <h1 class="text-3xl font-bold">
-              45 Best Places To <br />
-              Unwind
-            </h1>
-            <p class="text-sm font-extralight mt-5">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
+          <div class="w-[350px] h-[500px] col-start-auto mt-8 bg-white">
+            <div class="w-full flex justify-center">
+              <img
+                src="images/slider-7.webp"
+                alt=""
+                srcset=""
+                class="w-full h-[200px]"
+              />
+            </div>
+            <div class="mt-10 p-5">
+              <h1 class="text-3xl font-bold">
+                45 Best Places To <br />
+                Unwind
+              </h1>
+              <p class="text-sm font-extralight mt-5">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+            </div>
           </div>
         </div>
       </div>

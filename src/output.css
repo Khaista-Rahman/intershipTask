@@ -1234,16 +1234,16 @@ video {
     width: 16rem;
   }
 
-  .lg\:w-\[100vw\] {
-    width: 100vw;
-  }
-
   .lg\:w-\[20vw\] {
     width: 20vw;
   }
 
   .lg\:w-\[40vw\] {
     width: 40vw;
+  }
+
+  .lg\:w-\[80vw\] {
+    width: 80vw;
   }
 
   .lg\:items-center {
